@@ -1,0 +1,45 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.nav-container {
+  display: flex;
+  background-color: #ee8c3b;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  height: 50px;
+}
+
+.logo {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 14px 20px;
+  background-color: #ee8c3b;
+  height: 100%;
+}
+
+.menu li {
+  height: 100%;
+  padding: 0;
+}
+
+.menu li a:hover {
+  background-color: orangered;
+}
+/* .menu li {
+  display: inline-block;
+  margin: 5;
+} */
